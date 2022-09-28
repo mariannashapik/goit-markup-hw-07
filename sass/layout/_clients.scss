@@ -17,10 +17,9 @@
     fill:currentColor;
     color:#AFB1B8;
     transition: fill var(--transit-dur-and-func),border-color var(--transit-dur-and-func);
-}
-
-
-.clients-list-item:hover{
-    fill:var(--accent-color);
-    border-color: var(--accent-color);
+    
+    &:hover{
+        fill:var(--accent-color);
+        border-color: var(--accent-color);
+    }
 }

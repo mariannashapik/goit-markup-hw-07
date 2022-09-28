@@ -57,16 +57,13 @@ overflow: auto;
 transform: translateY(100%);
 transition: transform var(--transit-dur-and-func),background-color var(--transit-dur-and-func);
 
+.project-list-link-wrapper:hover &,
+.project-list-link-wrapper:focus &{
+    transform: translateY(0%);
+    background-color:rgba(33, 150, 243, 0.9);
+  }
 }
 
 .projects-list-item-link:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-
-  
-  
-.project-list-link-wrapper:hover .overlay,
-.project-list-link-wrapper:focus .overlay{
-    transform: translateY(0%);
-    background-color:rgba(33, 150, 243, 0.9);
-  }

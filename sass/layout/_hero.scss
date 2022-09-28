@@ -1,5 +1,5 @@
 
-.promo{
+.hero{
     background-image:linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(../images/backimage.jpg);
     background-color: var(--footer-color);
     background-repeat: no-repeat;
@@ -7,25 +7,24 @@
     padding-top: 200px;
     padding-bottom:200px;
     background-size: cover;
-    
+
+    &__title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--main-color);
+        margin-bottom:30px;
+        width:700px;
+           
+    }
     }
 
-.promo-box{
+.promo{
     display: flex;
     align-items:center;
-    flex-direction:column;
-    
+    flex-direction:column;    
 }
 
-.promo-hero{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--main-color);
-    margin-bottom:30px;
-    width:700px;
-       
-}

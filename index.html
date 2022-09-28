@@ -16,21 +16,21 @@
         <div class="container main-nav">
      <nav class="page-navigation">
         <a href="./index.html" class="logo">Web<span class="studio">Studio</span></a> 
-        <ul class="navigation">
-            <li><a class="nav-link current" href="index.html">Студія</a></li>
-            <li><a class="nav-link" href="portfolio.html">Портфоліо</a></li>
-            <li><a class="nav-link" href="">Контакти</a></li>
+        <ul class="page-navigation__list">
+            <li><a class="page-navigation__link current" href="index.html">Студія</a></li>
+            <li><a class="page-navigation__link" href="portfolio.html">Портфоліо</a></li>
+            <li><a class="page-navigation__link" href="">Контакти</a></li>
         </ul>
      </nav>
      <ul class="contacts">
         <li>   
-        <a class="contacts-mail" href="mailto:info@devstudio.com"><svg class="contacts-mail-icon" width="16" height="12">
+        <a class="contacts__mail" href="mailto:info@devstudio.com"><svg class="contacts__icon" width="16" height="12">
             <use href="./images/symbol-defs.svg#icon-envelope"></use>
         </svg>info@devstudio.com
     </a>
         </li>
         <li>
-            <a class="contacts-tel" href="tel:+380961111111"><svg class="contacts-tel-icon" width="10px" height="16px">
+            <a class="contacts__tel" href="tel:+380961111111"><svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11
         </a>
@@ -41,10 +41,10 @@
 
     <main>
        
-        <section class="promo">
-            <div class="promo-box container">
-        <h1 class="promo-hero">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="promo-button" data-modal-open>Замовити послугу</button>
+        <section class="hero">
+            <div class="container promo">
+        <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+        <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
     </div>
 </section>
    
@@ -55,39 +55,39 @@
            <h2 class="visually-hidden">Наші переваги</h2>
            <ul class="benefits-list">
             <li>
-                <div class="benefits-list-box">
-                <svg class="benefits-list-icon" width="70" height="70">
+                <div class="benefits-list__box">
+                <svg class="benefits-list__icon" width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
                 </svg>
             </div>
-                <h3 class="benefits-list-item">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <h3 class="benefits-list__title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
             <li>
-                <div class="benefits-list-box">
-                <svg class="benefits-list-icon" width="70" height="70">
+                <div class="benefits-list__box">
+                <svg class="benefits-list__icon" width="70" height="70">
                     <use href="./images/symbol-defs.svg#icon-clock-1"></use>
                 </svg>
             </div>
-                <h3 class="benefits-list-item">ПУНКТУАЛЬНІСТЬ</h3>
+                <h3 class="benefits-list__title">ПУНКТУАЛЬНІСТЬ</h3>
                 <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
             <li>
-            <div class="benefits-list-box">
-                <svg class="benefits-list-icon" width="70" height="70">
+            <div class="benefits-list__box">
+                <svg class="benefits__title" width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-diagram-1"></use>
             </svg>
         </div>
-            <h3 class="benefits-list-item">ПЛАНУВАННЯ</h3>
+            <h3 class="benefits-list__title">ПЛАНУВАННЯ</h3>
                 <p>Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li>
-            <div class="benefits-list-box">
-                <svg class="benefits-list-icon" width="70" height="70">
+            <div class="benefits-list__box">
+                <svg class="benefits__icon" width="70" height="70">
                 <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
             </svg>
         </div>
-            <h3 class="benefits-list-item">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <h3 class="benefits-list__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
            </ul>
@@ -95,22 +95,28 @@
         </section>
 
 <!-- Our services -->
-<section class="our-services">
+<section class="services">
     <div class="container">
-    <h2 class="about-us">Чим ми займаємося</h2>
-    <ul class="our-services-list">
+    <h2 class="services__title about-us">Чим ми займаємося</h2>
+    <ul class="services-list">
        
-        <li>
+        <li class="services-list__item">
            <img src="./images/service1.jpg" alt="Людина працює на планшеті" width="370">
-           <div class="services-box">
-        <h3 class="our-services-list-item">Десктопні додатки</h3>
+           <div class="services-list__box">
+        <h3 class="services-list__title">Десктопні додатки</h3>
           </div>
             </li>
-        <li><img src="./images/service2.jpg" alt="Дизайнер обирає колір на планшеті" width="370">
-            <div class="services-box"><h3 class="our-services-list-item">Мобільні додатки</h3></div>
+        <li class="services-list__item">
+            <img src="./images/service2.jpg" alt="Дизайнер обирає колір на планшеті" width="370">
+            <div class="services-list__box">
+                <h3 class="services-list__title">Мобільні додатки</h3>
+            </div>
                 </li>
-        <li><img src="./images/service3.jpg" alt="Людина працює на комп'ютері" width="370">
-            <div class="services-box"><h3 class="our-services-list-item">Дизайнерські рішення</h3></div>
+        <li class="services-list__item">
+            <img src="./images/service3.jpg" alt="Людина працює на комп'ютері" width="370">
+            <div class="services-list__box">
+                <h3 class="services-list__title">Дизайнерські рішення</h3>
+            </div>
             </li>
     </ul>
 </div>
